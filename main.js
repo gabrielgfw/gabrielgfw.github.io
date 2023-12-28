@@ -9,3 +9,12 @@ portraitContent.addEventListener('click', () => {
     portraitContent.classList.remove(...effectClasses)
   }, 1000);
 });
+
+// Selecting project div:
+let projectContent = document.querySelector('.example-content .project');
+
+// // Fetching project html data:
+// fetch('https://gabrielgfw.github.io/payload-checker/')
+//   .then(response => response.text())
+//   .then(data => console.log(data));
+
